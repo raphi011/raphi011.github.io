@@ -3,20 +3,33 @@ languageCode = "en-us"
 title = "Coding Artisan"
 theme = "m10c"
 publishDir = "docs"
-author = "Raphael Gruber"
-description = "On microservices, testing and the daily life of a software engineer"
 
-[[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
 
-[[params.social]]
-  icon = "github"
-  name = "My Github"
-  url = "https://github.com/raphi011"
+[params]
+  author = "Raphael Gruber"
+  description = "On microservices, testing and the daily life of a software engineer"
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/raphi011"
 
-[[params.social]]
-  icon = "twitter"
-  name = "My Twitter"
-  url = "https://twitter.com/raphi011"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/raphi011"
