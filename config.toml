@@ -3,3 +3,13 @@ languageCode = "en-us"
 title = "Raphael's Blog"
 theme = "m10c"
 publishDir = "docs"
+
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/raphi011"
+
+[[params.social]]
+  icon = "twitter"
+  name = "My Twitter"
+  url = "https://twitter.com/raphi011"
