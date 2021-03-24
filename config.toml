@@ -1,0 +1,5 @@
+baseURL = "https://coding-artisan.blog/"
+languageCode = "en-us"
+title = "Raphael's Blog"
+theme = "m10c"
+publishDir = "docs"
