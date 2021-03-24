@@ -1,8 +1,15 @@
 baseURL = "https://coding-artisan.blog/"
 languageCode = "en-us"
-title = "Raphael's Blog"
+title = "Coding Artisan"
 theme = "m10c"
 publishDir = "docs"
+author = "Raphael Gruber"
+description = "On microservices, testing and the daily life of a software engineer"
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
 
 [[params.social]]
   icon = "github"
