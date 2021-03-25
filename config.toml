@@ -29,6 +29,11 @@ publishDir = "docs"
     name = "Twitter"
     url = "https://twitter.com/raphi011"
 
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/raphael-gruber-944300137/"
+
   [params.style]
     darkestColor = "#242930"
     darkColor = "#353b43"
