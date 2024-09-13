@@ -21,5 +21,7 @@ paginate: 5
 # Custom vars
 version: 2.1.0
 
+remote_theme: poole/hyde
+
 github:
   repo: https://github.com/poole/hyde
