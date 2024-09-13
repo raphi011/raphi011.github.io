@@ -2,15 +2,14 @@
 markdown: redcarpet
 highlighter: pygments
 
-# Permalinks
 permalink: pretty
 
 title: Raphael Gruber
-tagline: "A Jekyll theme"
+tagline: "A Software Developer writing to educate himself."
 description: "A Software Developer writing to educate himself."
 url: https://raphaelgruber.me
 baseurl: /
 
 paginate: 5
-
+plugins: [jekyll-paginate]
 remote_theme: poole/hyde
